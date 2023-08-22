@@ -1,0 +1,127 @@
+.hero-section{
+    position: relative;
+    overflow: hidden;
+    
+}
+.section_video{
+    /* height: 100%; */
+    width:100%;
+   overflow: hidden;
+    position: absolute;
+    inset: 0;
+    /* left: 0;
+    right: 0; */
+}
+.Text_section{
+    position: relative;
+    padding: 55px 0px 71px 0px;
+}
+/* .Text_section .main_heading{
+    margin-bottom: 48px;
+} */
+.Text_section .main_heading h1 {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 94px;
+    color:#fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    max-width: 782px;
+}
+.Text_section .main_heading p {
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color:#fff;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    max-width: 990px;
+}
+.summary-card{
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid #ffffff73;
+    padding: 15px 15px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    background-image: linear-gradient(140deg, #ffffff3b, #000000d1);
+}
+.card_img h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    min-width: max-content;
+    color: #fff;
+    font-weight: 500;
+}
+.widget-stock-img img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.card-img span {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 16px;
+}
+.change-down {
+    color: #ee2717;
+}
+.card_image span{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 16px;
+}
+.widget-stock-img {
+    display: inline-block;
+    width: 20px;
+    margin-right: 8px;
+}
+.symbol_price{
+    color: #fff;
+}
+ .stock-details{
+    margin-top: 10px;
+ }
+ .overlay{
+    position: absolute;
+    opacity: .75;
+    /* position: relative; */
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #373c3f;
+    mix-blend-mode: overlay;
+ }
+ @media(max-width:1360px){
+.section_video{
+width: auto;
+height: 100%;
+}
+ }
+ @media(max-width:992px){
+     /* .section_video{
+        width:fit-content;
+        height: 100%;
+        
+    }  */
+    .Feature_vedio_section .slick-slider .slick-prev{
+        left: -20px !important;
+    }
+   .Feature_vedio_section .slick-slider .slick-next{
+    right: -15px !important;
+   }
+ }
+ @media(max-width:576px){
+    .Text_section .main_heading p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .slick-next,.slick-prev{
+        display: none !important;
+    }
+    .Home_testimonoal_section{
+        padding: 50px 0px;
+    }
+ }

@@ -1,0 +1,21 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "hey",
+      "link": "// http://localhost:8000/product"
+    }
+  ]
+}
