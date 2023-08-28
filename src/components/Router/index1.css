@@ -1064,14 +1064,15 @@ footer li a{
     padding-top: 35px;
 }
 .Home_testimonoal_section h2.testimonial_main-heading{
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 34px;
 }
 .vedio_bio>div>a{
     font-size: 14px;
+    
 }
 .testimonial_main_p{
-    text-align: justify;
+    text-align: start;
 }
 .nav-link{
     font-size: 16px;
@@ -1086,4 +1087,28 @@ footer li a{
     /* margin: auto; */
     
 }
+section,footer{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.right-footer{
+    text-align: start;
+}
+.testimonial_main_p{
+    font-size: 20px;
+}
+.vedio_section_mobile{
+    flex-direction: column !important;
+}
+.vedio_bio{
+    padding: 20px 15px 0px 15px;
+    text-align: center;
+}
+nav{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* .navbar-toggler{
+    width: 50px !important;
+} */
 }

@@ -4,7 +4,7 @@ import {latest_date} from '../Feature_vedio_section/Feature_vedio_data.jsx';
 const Vedio_slick_slider = (props) => {
   return (
     <>
-      <div className='d-flex align-items-center'>
+      <div className='d-flex align-items-center vedio_section_mobile'>
         <div className='vedio_feature'>
             <img src={props.img}/>
         </div>
