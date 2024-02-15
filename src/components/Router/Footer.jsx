@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ft_logo from "./Rich_logo.png";
 import { NavLink } from "react-router-dom";
 import ft_arrow from "./ft_arrow.svg";
@@ -35,8 +35,8 @@ const Footer = () => {
               <div>
                 {/* <img src={ft_logo} alt="path is wrong" /> */}
                 <NavLink to="/">
-        <img src={ft_logo} alt="path is wrong"/>
-    </NavLink>
+                  <img src={ft_logo} alt="path is wrong" />
+                </NavLink>
               </div>
               <p className="ft-p">{ft_pra.paragraph}</p>
             </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className="col-md-3 col-6 right-footer pt-3 pt-md-0">
                   <h3>Rich Tv</h3>
                   <ul>
-                  <li>
+                    <li>
                       <NavLink to="/About">About Us</NavLink>
                     </li>
                     <li>
@@ -70,18 +70,19 @@ const Footer = () => {
                     </li>
                     <li>
                       {/* <a href="#">Privacy Policy</a> */}
-                       <NavLink
-                       className=""
-                       to="Privacy"
-                       aria-label="Privacy Policy">
-                       Privacy Policy
-                     </NavLink>
+                      <NavLink
+                        className=""
+                        to="Privacy"
+                        aria-label="Privacy Policy"
+                      >
+                        Privacy Policy
+                      </NavLink>
                     </li>
                     <li>
                       {/* <a href="#Use_terms"></a> */}
                       <NavLink className="" to="Use_terms" aria-label="Terms">
-              Term of service
-            </NavLink>
+                        Term of service
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -99,7 +100,8 @@ const Footer = () => {
                     <div className="ft-input d-flex justify-content-between align-items-center">
                       <input
                         type="text"
-                        placeholder="Enter your email address" value={email}
+                        placeholder="Enter your email address"
+                        value={email}
                         onChange={onEmailChange}
                       />
                       <a href="#" disabled={true}>
@@ -107,29 +109,35 @@ const Footer = () => {
                       </a>
                     </div>
                     <div className=" position-relative d-flex align-items-center gap-2 gap-md-3 pt-2 ps-2 ps-md-0">
-                        <input type="checkbox" name="Check_Email" value="Agree_Email"/>
-                    <label for="checkEmail" className="checked_email"> I agree to receive newsletter and email alerts.</label>
-                    <span className="Email_box"></span>
+                      <input
+                        type="checkbox"
+                        name="Check_Email"
+                        value="Agree_Email"
+                      />
+                      <label htmlFor="checkEmail" className="checked_email">
+                        I agree to receive newsletter and email alerts.
+                      </label>
+                      <span className="Email_box"></span>
                     </div>
                   </form>
                   <div className="social_links pt-5 d-flex  gap-4 link-center">
                     <a href="https://www.facebook.com">
-                      <img src={facebook}/>
+                      <img src={facebook} />
                     </a>
                     <a href="https://www.youtube.com">
-                      <img src={youtube}/>
+                      <img src={youtube} />
                     </a>
                     <a href="https://www.instagram.com">
-                      <img src={instagram}/>
+                      <img src={instagram} />
                     </a>
                     <a href="https://www.twitter.com">
-                      <img src={twitter}/>
+                      <img src={twitter} />
                     </a>
                     <a href="https://www.linkedin.com">
-                      <img src={linkedin}/>
+                      <img src={linkedin} />
                     </a>
                     <a href="https://www.tiktok.com">
-                      <img src={tiktok}/>
+                      <img src={tiktok} />
                     </a>
                   </div>
                 </div>

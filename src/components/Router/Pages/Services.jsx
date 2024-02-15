@@ -46,10 +46,14 @@ const Services = () => {
         <section className="pt-4">
           <h1 className="text-center">Our Services</h1>
           <div className="row gy-4 py-4">
-            {/* <Cards/> */}
             {S_data.map((ele, ind) => {
               return (
-                <Cards img_src={ele.img_src} title={ele.title} des={ele.des} />
+                <Cards
+                  img_src={ele.img_src}
+                  title={ele.title}
+                  des={ele.des}
+                  id={ind}
+                />
               );
             })}
           </div>

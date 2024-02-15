@@ -38,6 +38,9 @@ nav{
 .navbar-brand img{
     transition: .2s;
 }
+.has-error .form-control {
+  border-color: red;
+}
 /* .navbar-brand img:hover,.navbar-brand img:focus{
     transition: all .2s ease-in-out;
     filter: invert(40%) sepia(150%) saturate(477%) hue-rotate(337deg) brightness(110%) contrast(100%);
